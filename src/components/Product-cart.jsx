@@ -12,7 +12,6 @@ const ProductCart = () => {
 
   useEffect(() => {
     setData([...rawdata])
-    console.log(data)
   }, [])
   return (
     <Data.Provider value={{
